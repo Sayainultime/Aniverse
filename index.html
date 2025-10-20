@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Lien vers une feuille de style externe -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Encodage des caractères -->
+    <meta charset="UTF-8">
+    
+    <!-- Adaptation à la largeur de l’écran pour le responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Import d’une police depuis Google Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+    </style>
+
+    <!-- Titre de la page affiché dans l’onglet du navigateur -->
+    <title>Aniverse</title>
+</head>
+<body>
+    
+    <!-- Barre de navigation -->
+    <div class="navbar">
+        <ul>
+            <!-- Liens de navigation -->
+            <li><a href="#Manga">Manga</a></li>
+            <li><a href="#News">News</a></li>
+            <li><a href="#Forum">Forum</a></li>
+            
+            <!-- Logo à gauche dans la barre de navigation -->
+            <img src="img/Aniverse.logo.png" alt="" class="logo" style="width: 40px;">
+            
+            <!-- Titre de la marque à droite -->
+            <li class="logo"><a href="#aniverse">ANIVERSE</a></li>
+        </ul>
+
+        <li class="search-bar">
+            <input type="text" id="searchInput" placeholder="Rechercher..." />
+            <span class="search-icon" style="cursor:pointer;">🔍</span>
+        </li>
+
+<!-- Résultats de recherche -->
+<div id="resultsContainer" style="color:white; padding:10px;"></div>
+
+        <!-- Section du carrousel/slideshow -->
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <div class="slideshow-container">
+
+                <!-- Slide 1 -->
+                <div class="mySlides fade">
+                    <a href="dragonballz.html">
+                        <img src="img/dbz.jpg" alt="Dragon Ball Z" style="width: 100%;">
+                    </a>
+                    <div class="text">DRAGON BALL Z</div>
+                </div>
+
+                <!-- Slide 2 -->
+                <!-- Slide 2 -->
+                <div class="mySlides fade">
+                    <a href="onepiece.html">
+                        <img src="img/onepiece1.jpg" alt="One Piece" style="width: 100%;">
+                    </a>
+                    <div class="text">ONE PIECE</div>
+                </div>
+
+
+                <!-- Slide 3 -->
+                <div class="mySlides fade">
+                    <a href="naruto.html">
+                        <img src="img/NarutoShippuden.webp" alt="Naruto Shippuden" style="width: 100%;">
+                    
+                    <div class="text">NARUTO SHIPPUDEN</div>
+                </div>
+            </div>
+
+            <!-- Boutons pour naviguer entre les slides -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1)">&#10095</a>
+        </div>
+
+        <!-- Ligne de séparation -->
+        <hr class="rounded">
+
+        <!-- Titre pour la section tendance -->
+        <h1 class="trending">| EN TENDANCE</h1>
+
+        <div class="row">
+    <div class="column"><img src="img/solo.png" alt="Solo Leveling" style="width: 100%;"></div>
+    <div class="column"><img src="img/bleach.jpeg" alt="Bleach" style="width: 100%;"></div>
+    <div class="column"><img src="img/demonslayer.png" alt="Demon Slayer" style="width: 100%;"></div>
+    <div class="column"><img src="img/jjk3.jpg" alt="Jujutsu Kaisen" style="width: 100%;"></div>
+    <div class="column"><img src="img/mha.png" alt="My Hero Academia" style="width: 100%;"></div>
+    <div class="column"><img src="img/opm.jpg" alt="One Punch Man" style="width: 100%;"></div>
+</div>
+
+<div class="row">
+    <div class="column"><img src="img/hunter.webp" alt="HunterXHunter" style="width: 100%;"></div>
+    <div class="column"><img src="img/titan.jpg" alt="L'attaque Des Titans" style="width: 100%;"></div>
+    <div class="column"><img src="img/bluelock.jpg" alt="Blue Lock" style="width: 100%;"></div>
+    <div class="column"><img src="img/haikyuu.jpg" alt="Haikyuu" style="width: 100%;"></div>
+    <div class="column"><img src="img/basket.webp" alt="Kuroko's Basket" style="width: 100%;"></div>
+    <div class="column"><img src="img/black.webp" alt="Black Clover" style="width: 100%;"></div>
+</div>
+
+
+
+        <!-- Section d'abonnement / présentation -->
+        <div class="Subscribe">
+            <h1 class="A">ABOUT ME</h1>
+            <h3 class="A"><a href="">subscribe now</a></h3>
+        </div>
+
+
+    </div>
+
+    <!-- Inclusion d’un fichier JS externe -->
+    <script src="script.js"></script>
+</body>
+</html>
